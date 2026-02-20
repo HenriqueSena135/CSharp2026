@@ -14,7 +14,7 @@ Diagonal = Math.Sqrt(Math.Pow(Base, 2) + Math.Pow(Altura, 2));
 WriteLine($"A área do retângulo é: {Area}");
 WriteLine($"O perímetro do retângulo é: {Perimetro}");
 WriteLine($"A diagonal do retângulo é: {Diagonal}");
-
+//cesar a execução do programa
 
 
 
