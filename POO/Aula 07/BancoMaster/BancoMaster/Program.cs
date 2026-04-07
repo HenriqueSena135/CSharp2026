@@ -5,8 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("1 - Poupança | 2 - Empresa");
+      
+        Console.WriteLine("1 - Poupança  |  2 - Empresa");
         int tipo = int.Parse(Console.ReadLine());
+
 
         Console.Write(" Digite o Número da conta: ");
         int numero = int.Parse(Console.ReadLine());
@@ -43,5 +45,6 @@ class Program
         Console.WriteLine("Saldo final: " + conta.Saldo);
 
         Console.ReadKey();
+
     }
 }

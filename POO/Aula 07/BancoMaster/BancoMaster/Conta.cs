@@ -33,15 +33,16 @@ namespace BancoMaster;
         saldo = saldoInicial;
     }
 
-    public virtual void Saque(double quantia)
-    {
-        saldo -= quantia + 5.0; // taxa
-    }
-
     public void Deposito(double quantia)
     {
         saldo += quantia;
     }
+    public void Saque(double quantia)
+    {
+        saldo -= quantia + 5.0; // taxa
+    }
+       
+            
 }
 
 

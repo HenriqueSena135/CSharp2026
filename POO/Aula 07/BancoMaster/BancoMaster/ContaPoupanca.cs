@@ -24,7 +24,7 @@ namespace BancoMaster
             Saldo += Saldo * taxaDeJuros;
         }
 
-        public override void Saque(double quantia)
+        public void Saque(double quantia)
         {
             Saldo -= quantia; // sem taxa
         }
