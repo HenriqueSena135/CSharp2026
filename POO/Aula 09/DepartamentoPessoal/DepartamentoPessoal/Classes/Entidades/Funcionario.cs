@@ -37,7 +37,7 @@ namespace DepartamentoPessoal.Classes.entidades
             ValorHora = valorHora;
         }
 		//metodos
-		public double Pagamento()
+		public  virtual double Pagamento()
 		{
 			return Jornada * ValorHora;
         }
